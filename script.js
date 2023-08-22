@@ -378,13 +378,13 @@ $(document).ready(function() {
 		$('.overlay, body').addClass('loaded');
 		setTimeout(function() {
 			$('.overlay').css({'display':'none'})
-		}, 10000)
+		}, 5000)
 	});
 	
 	// Will remove overlay after 1min for users cannnot load properly.
 	setTimeout(function() {
 		$('.overlay, body').addClass('loaded');
-	}, 10000);
+	}, 5000);
 })
 	
 
